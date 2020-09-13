@@ -166,7 +166,7 @@ function mouseReleased (){
 
 function keyPressed (){
   if(keyCode === 32){
-    slingshot.attach(ball.body);
+    slingshot.attach(this.ball);
     //Matter.Body.setPosition(ball.body,{x:200,y:50})
   }
 }
